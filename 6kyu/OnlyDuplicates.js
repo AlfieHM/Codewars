@@ -13,12 +13,11 @@ function onlyDuplicates(str) {
     let val = arr[i]
     let count=0
       for(let y=0; y<arr.length; y++){
-      
        if(val===arr[y]){
         count++
-        }
+       }
       }
-    if(count>1){
+      if(count>1){
         arr1.push(arr[i])
       }
   }
